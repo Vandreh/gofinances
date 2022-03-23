@@ -1,0 +1,780 @@
+https://www.figma.com/file/vThJ6qrb4HDT6RfO5sJGu0/GoFinances-Ignite?node-id=0%3A1
+
+
+https://www.figma.com/file/ZXYZVZgzVQcyT7FKNQvPHs/GoFinances-Ignite-(Copy)?node-id=0%3A1
+https://docs.expo.dev/guides/typescript/
+https://docs.expo.dev/versions/latest/sdk/camera/?redirected
+https://styled-components.com/
+
+yarn add styled-components
+yarn add @types/styled-components-react-native -D
+
+
+https://www.rapidtables.com/convert/color/hex-to-rgb.html
+
+expo install expo-font @expo-google-fonts/poppins
+expo install expo-app-loading
+
+yarn add react-native-responsive-fontsize
+
+
+biblioteca nativa para pegar icones:
+https://icons.expo.fyi
+ex.:    MaterialIcons = home
+        Feather
+
+yarn add react-native-iphone-x-helper
+
+
+
+https://xesque.rocketseat.dev/categories.ts
+
+
+
+https://react-hook-form.com/get-started
+        yarn add react-hook-form
+        
+https://react-hook-form.com/get-started#ReactNative
+
+
+biblioteca yup para validar campos no input:
+https://react-hook-form.com/get-started#SchemaValidation
+        yarn add @hookform/resolvers yup
+
+
+
+https://reactnavigation.org/
+        yarn add @react-navigation/native
+        expo install react-native-screens react-native-safe-area-context
+
+
+https://reactnavigation.org/docs/tab-based-navigation
+        yarn add @react-navigation/bottom-tabs
+
+
+
+
+https://docs.swmansion.com/react-native-gesture-handler/
+https://docs.swmansion.com/react-native-gesture-handler/docs/next/api/components/buttons/#borderlessbutton
+https://docs.swmansion.com/react-native-gesture-handler/docs/next/api/components/buttons/#rectbutton
+
+Gesture Handler nao funciona, estou utilizando TouchableOpacity (Funcionando)
+       não fiz a instalação: expo install react-native-gesture-handler
+
+
+
+
+https://whimsical.com/gofinances-CSjSoZHrtBEW5zoqYvfYjM
+
+
+https://app.rocketseat.com.br/node/async-storage/group/async-storage/lesson/armazenando-e-recuperando-dados
+https://docs.expo.dev/versions/latest/sdk/async-storage/
+        expo install @react-native-async-storage/async-storage
+
+
+
+
+https://www.npmjs.com/package/react-native-uuid
+        yarn add react-native-uuid
+
+
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString
+
+https://www.w3schools.com/jsref/jsref_tolocalestring.asp
+
+
+
+        problema no formato da data: 
+                [Unhandled promise rejection: ReferenceError: Can't find variable: Intl]
+        https://app.rocketseat.com.br/h/forum/react-native/8017d7fe-3e46-4668-bffb-9cb3e101b42a
+
+        https://github.com/RennanD/gofinances-mobile/blob/main/src/screens/Dashboard/index.tsx
+
+repositorio de colegas:
+        https://github.com/ElvisFelix-dev/gofinances-reactnative
+        https://github.com/fabricioig863/gofinances
+        https://github.com/vhbeltramini/goFinances
+        https://github.com/ivanvinicius/ignite-go-finances
+        https://github.com/Masterr115/ignite-goFinances/blob/main/src/hooks/auth.tsx
+        https://github.com/brunosana/bet-management-mobile
+        https://github.com/R1quelme/gofinances
+        https://github.com/josuegimenes/ignite-react-native-gofinances
+        https://github.com/jeandsontb/Projeto-React-Native-Finances
+
+
+corrigindo o problema:
+https://app.rocketseat.com.br/h/forum/react-native/870a220b-8e87-48dd-8644-be81be84a0b3
+https://www.npmjs.com/package/react-native-intl
+
+
+solução:
+https://yarnpkg.com/package/intl
+yarn add intl
+
+
+
+https://reactnavigation.org/docs/use-focus-effect/
+
+
+
+
+erro no codigo hilightCard:
+https://app.rocketseat.com.br/h/forum/react-native/eee8fa24-ba35-4e49-a3ea-3f1c93178b49
+https://github.com/jricardoc/goFinancesApp/blob/main/src/screens/Dashboard/index.tsx#L136
+
+
+
+
+
+
+https://formidable.com/open-source/victory/docs/victory-pie/
+        yarn add victory-native
+
+https://formidable.com/open-source/victory/docs/native
+yarn add react-native-svg
+
+
+        ainda nao corrigi:
+        Some dependencies are incompatible with the installed expo package version:
+        - react-native-svg - expected version: 12.1.1 - actual version installed: 12.3.0
+        Your project may not work correctly until you install the correct versions of the packages.
+        To install the correct versions of these packages, please run: expo doctor --fix-dependencies,
+        or install individual packages by running expo install [package-name ...]
+
+
+
+
+
+https://date-fns.org/
+        yarn add date-fns
+
+https://date-fns.org/v2.28.0/docs/addMonths
+
+
+
+
+https://www.figma.com/file/dH7aLfbV9FcsgkOESzbCwO/GoFinances-Ignite?node-id=39329%3A1625
+
+
+
+
+
+https://github.com/kristerkari/react-native-svg-transformer
+        yarn add react-native-svg-transformer
+
+
+baixar arquivos SVG: pasta: assets:
+https://drive.google.com/file/d/1v01K7qS0GInTM2yfemaxAY8M5SICmVcx/view
+
+
+
+https://docs.expo.io/guides/authentication/#google
+https://docs.expo.dev/guides/authentication/
+https://docs.expo.dev/guides/authentication/#google
+https://console.cloud.google.com/apis/credentials?pli=1
+
+https://expo.dev/settings
+https://docs.expo.dev/workflow/expo-cli/
+https://docs.expo.dev/versions/latest/sdk/auth-session/#what--authexpoio--does-for-you
+https://docs.expo.dev/versions/latest/sdk/auth-session/#usage-in-the-bare-react-native-app
+
+
+
+
+
+1 - Quando o aplicativo for para produção ele vai usar o backend do expo para login?
+2 - Se sim isso é recomendado em caso de aplicativos com muita carga de solicitações de login?
+3 - A expo cobra por algum serviço (baseado na necessidade de fazer login apenas) ou é realmente tudo de graça o tempo todo?
+
+
+Vamos lá, o auth-session que você está utilizando não se comunica com um backend do Expo em si. Não é o Expo que realiza esses logins, o que a gente usa é basicamente o proxy do Expo (o famoso auth.expo.io) para redirecionar os usuários nos fluxos dos logins sociais. O "resto" do login (ex.: geração de tokens) é feito pelo provedor que você escolheu. E daí cada provedor tem suas limitações.
+
+Vou deixar aqui a doc do que o Expo Proxy faz pra ti:
+https://docs.expo.dev/versions/latest/sdk/auth-session/#what--authexpoio--does-for-you
+
+E também uma doc explicando bem resumidamente o papel desse serviço no seu fluxo de login:
+https://docs.expo.dev/versions/latest/sdk/auth-session/#usage-in-the-bare-react-native-app
+
+Por fim, você pode utilizar o próprio proxy caso deseje.
+
+Espero ter ajudado 
+
+
+
+
+
+
+
+https://console.cloud.google.com/apis/credentials?project=gofinances-344806
+https://expo.dev/accounts/gofinances/settings/members
+
+
+https://developers.google.com/identity
+https://developers.google.com/identity/protocols/oauth2/scopes
+https://developers.google.com/identity/protocols/oauth2/openid-connect
+
+https://developers.google.com/identity/protocols/oauth2/native-app
+        Step 2: Send a request to Google's OAuth 2.0 server
+
+
+
+https://docs.expo.io/versions/latest/sdk/auth-session/
+        expo install expo-auth-session expo-random
+
+
+https://docs.expo.dev/workflow/configuration/
+
+
+
+You are not currently signed in to Expo on your development machine. As a result, the redirect URL for AuthSession will be "https://auth.expo.io/@anonymous/gofinances-64c2529c-548b-476d-8960-184382290106". If you are using an OAuth provider that requires adding redirect URLs to an allow list, we recommend that you do not add this URL -- instead, you should sign in to Expo to acquire a unique redirect URL. Additionally, if you do decide to publish this app using Expo, you will need to register an account to do it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Problema ao realizar a autenticação no google
+Aula em: Contextos e Autenticação › Login Social › Conectando com uma conta Google
+DESCRIÇÃO DO PROBLEMA
+
+Estou utilizando o dispositivo físico Android para executar a aplicação.
+
+Ao realizar a autenticação no google pela primeira vez, selecionando a conta do gmail e digitando a senha, me deparei com a seguinte tela branca no dispositivo dizendo:
+'Something went wrong trying to finish signing in.' (Algo deu errado ao tentar concluir o login)
+
+Já no terminal do computador, a seguinte mensagem era exibida:
+'You are not currently signed in to Expo on your development machine.' (No momento você não está logado no Expo na sua máquina de desenvolvimento)
+
+SOLUÇÃO:
+
+Após pesquisar, a solução do problema é que você deve logar no Expo (na sua linha de comando ou terminal) para que a autenticação aconteça com sucesso no app do dispositivo.
+
+Basta apenas abrir o terminal e escrever o comando abaixo:
+expo login
+
+E fornecer as suas credencias (usuário e senha) da conta do expo. Finalizando o processo de login a mensagem abaixo é exibida (vide imagem a seguir) :
+
+Success. You are now logged in as <your_login>.
+
+Screenshot from 2022-01-19 00-34-08.png
+
+Após logar no expo no terminal, a autenticação vai ser realizada com sucesso, retornando para o app e com o valor do response no terminal.
+
+Espero ter ajudado. Abraço
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Linking requires a build-time setting `scheme` in the project's Expo config (app.config.js or app.json) for production apps, if it's left blank, your app may crash. The scheme does not apply to development in the Expo client but you should add it as soon as you start working with Linking to avoid creating a broken build. Learn more: https://docs.expo.io/guides/linking/
+
+https://github.com/expo/expo/issues/11754
+https://docs.expo.dev/guides/linking/
+https://translate.google.com/?sl=en&tl=pt&text=Linking%20requires%20a%20build-time%20setting%20%60scheme%60%20in%20the%20project%27s%20Expo%20config%20(app.config.js%20or%20app.json)%20for%20production%20apps%2C%20if%20it%27s%20left%20blank%2C%20your%20app%20may%20crash.%20The%20scheme%20does%20not%20apply%20to%20development%20in%20the%20Expo%20client%20but%20you%20should%20add%20it%20as%20soon%20as%20you%20start%20working%20with%20Linking%20to%20avoid%20creating%20a%20broken%20build.%20Learn%20more%3A%20https%3A%2F%2Fdocs.expo.io%2Fguides%2Flinking%2F&op=translate
+https://docs.expo.dev/versions/latest/sdk/auth-session/
+https://developers.google.com/identity/protocols/oauth2/scopes
+https://expo.dev/accounts/gofinances/settings/members
+https://console.cloud.google.com/apis/credentials?project=gofinances-344806
+https://docs.expo.dev/guides/authentication/#google
+https://translate.google.com/?sl=en&tl=pt&text=should%20NOT%20have%20additional%20property%20%27schema%27.&op=translate
+
+
+
+https://docs.expo.dev/guides/linking/
+Error: Problem validating fields in app.json. Learn more.
+ • should NOT have additional property 'schema'.
+
+https://docs.expo.dev/workflow/configuration/
+
+
+
+
+
+
+
+expo login
+
+
+
+
+
+
+https://github.com/brysgo/babel-plugin-inline-dotenv
+        yarn add babel-plugin-inline-dotenv
+
+
+
+https://docs.expo.dev/versions/latest/sdk/apple-authentication/
+        expo install expo-apple-authentication
+
+
+
+
+
+
+https://reactnavigation.org/docs/stack-navigator/
+        yarn add @react-navigation/stack
+
+
+
+
+
+https://docs.expo.dev/versions/latest/sdk/gesture-handler/
+        expo install react-native-gesture-handler
+
+
+
+
+
+
+
+
+
+
+
+
+[Unhandled promise rejection: SyntaxError: JSON Parse error: Unexpected identifier "undefined"]
+at src/hooks/auth.tsx:130:37 in loadUserStorageData
+
+
+
+
+
+
+
+
+https://app.rocketseat.com.br/h/forum/react-native/144e1ca6-5208-4cc7-b464-af5fa12ff733
+
+Utilizando useAuth sem o contexto
+Aula em: Contextos e Autenticação › Login Social › Logout e exibindo dados do usuário
+Nesta aula o professor utilizar o hook useAuth dentro do arquivo App.tsx, porém o useAuth deveria funcionar apenas dentro do provider que está sendo adicionar neste mesmo arquivo, caso contrário não irá retornar nenhum dado.
+
+Foi algum erro ou realmente tem como acessar os dados do hook (no caso os dados do contexto) sem estar dentro do provider?
+
+
+
+
+Bom dia @Alícia Foureaux, tudo bem? Realmente a forma correta de utilizar o useAuth, seria somente em arquivos que estão sendo envolvidos pelo AuthProvider, tanto que o funcionamento não ocorre 100% como esperado.
+
+Uma forma legal de evitar esse tipo de uso fora de componentes filhos do provider, é lançar um erro alertando o dev desse problema. Podendo fazer dessa forma:
+Dentro da função useAuth que é exportada do auth.ts, você pode adicionar um if, verificando se o contexto conseguiu ser montado, mais ou menos assim:
+const context = useContext(AuthContext);
+
+if (!context) {
+  throw new Error('useAuth must be used inside AuthProvider');
+}
+
+
+Sim, no meio dessa aula vi isso e já corrigi, passei o estado que informa o loading para o arquivo de rotas, aí ele só está redirecionando caso tenha user.id e o loading esteja como falso.
+
+
+
+
+
+
+
+
+https://ui-avatars.com/
+
+
+
+https://github.com/expo/fyi/blob/main/expo-modules-migration.md
+https://github.com/jeandsontb/Projeto-React-Native-Finances/commit/6f740234b1e6e5e1596a52c691b1ab1a13c614c0
+
+
+
+
+
+Problema para rodar o projeto nativo no dispositivo
+Aula em: Contextos e Autenticação › Login Social › Finalizando a nossa Aplicação
+Olá pessoal, estou com problemas para rodar o projeto direto no dispositivo, o projeto roda 100% pelo expo, qualquer projeto nativo roda tranquilo somente os criados com expo que apresenta o erro
+
+expoErro00.png
+expoError01.png
+
+Utilizo o linux mint 19
+
+repo do projeto
+https://github.com/jeandsontb/Projeto-React-Native-Finances
+
+O que já fiz para tentar resolver:
+Instalar o react-native-unimodules e configurar na pasta android
+Instalar o expo upgrade 43 e configurar pela documentação https://expo.fyi/expo-modules-migration
+mudar a versão do gradle no arquivo gradle-wrapper.properties para a versão que outros aplicativos rodam na máquina.
+
+nada até agora deu certo.
+
+Agradeço a ajuda
+
+COMENTAR
+RESPONDER
+Melhor Resposta
+
+Votos
+
+Data
+Vinícius Fraga Modesto
+
+Rocketseat
+Vinícius Fraga Modesto
+10/01/22 às 11:31
+Fala @JEANDSON TENORIO BRAZ, tudo bem?
+
+Pela sua descrição, me parece que você tentou instalar algum pacote do Expo com yarn add em vez de expo install, então pegou uma versão mais atual que precisava dos Expo Modules e você ainda não tinha instalado/configurado no seu projeto.
+
+Dei uma olhada no repo e vi que você atualizou para a SDK 44, porém não realizou todos os passos do upgrade, por exemplo a instalação do próprio expo modules
+
+https://github.com/jeandsontb/Projeto-React-Native-Finances/commit/6f740234b1e6e5e1596a52c691b1ab1a13c614c0#diff-7ae45ad102eab3b6d7e7896acd08c427a9b25b346470d7bc6507b6481575d519
+
+Nesse caso, ou você tenta voltar para a sua SDK 41 e instalar o pacote correto para ela com o expo install, ou você tenta atualizar para a SDK 44 (que pode ser bem trabalhoso, principalmente por conta das várias atualizações nativas que tiveram por conta do react native 0.64 e expo modules).
+
+Estou no aguardo 
+COMENTAR
+Todas as respostas
+Página 1 de página 1
+
+JEANDSON TENORIO BRAZ
+JEANDSON TENORIO BRAZ
+26/01/22 às 18:29
+Olá Vinícius Fraga, tudo bem, estava desenvolvendo alguns projetos para vagas e não dei continuidade na plataforma por esse tempo, eu estava com o SDK 41 e o problema já apresentava, aí atualizei para 44, e assim mesmo não funcionou, vou recriar do essa aplicação do zero e ver qual lib que esse problema está ocorrendo.
+
+COMENTAR
+Vinícius Fraga Modesto
+
+Rocketseat
+Vinícius Fraga Modesto
+17/01/22 às 09:16
+Falaaa @JEANDSON TENORIO BRAZ!
+
+Devido a inatividade estaremos fechando esse tópico, mas se por acaso sua dúvida ainda persistir sinta-se totalmente livre para reabrir esse tópico e nos atualizar sobre o seu caso 💜
+
+COMENTAR
+Vinícius Fraga Modesto
+
+Rocketseat
+Vinícius Fraga Modesto
+10/01/22 às 11:31
+Fala @JEANDSON TENORIO BRAZ, tudo bem?
+
+Pela sua descrição, me parece que você tentou instalar algum pacote do Expo com yarn add em vez de expo install, então pegou uma versão mais atual que precisava dos Expo Modules e você ainda não tinha instalado/configurado no seu projeto.
+
+Dei uma olhada no repo e vi que você atualizou para a SDK 44, porém não realizou todos os passos do upgrade, por exemplo a instalação do próprio expo modules
+
+https://github.com/jeandsontb/Projeto-React-Native-Finances/commit/6f740234b1e6e5e1596a52c691b1ab1a13c614c0#diff-7ae45ad102eab3b6d7e7896acd08c427a9b25b346470d7bc6507b6481575d519
+
+Nesse caso, ou você tenta voltar para a sua SDK 41 e instalar o pacote correto para ela com o expo install, ou você tenta atualizar para a SDK 44 (que pode ser bem trabalhoso, principalmente por conta das várias atualizações nativas que tiveram por conta do react native 0.64 e expo modules).
+
+Estou no aguardo 
+COMENTAR
+Matheus de Nadai
+Matheus de Nadai
+02/01/22 às 12:38
+Olá @JEANDSON TENORIO BRAZ, quando temos um projeto em expo ele é rodado pelo comando expo start, abrindo varias opções, como abrir o mesmo em uma guia no navegador, ou rodar o emulador, tudo pelo expo em si. O Rodrigo explica quando ele inicia um projeto em expo, nas primeiras aulas entendendo o expo.
+
+Assim não podemos rodar yarn android, em projeto expo, rodamos expo start.
+
+Espero ter ajudado você meu amigo!
+
+(1) COMENTAR
+JEANDSON TENORIO BRAZ
+03/01/22 às 12:47
+RESPONDER
+
+Olá Matheus obrigado pelo feedback, quando cria um projeto utilizando o Expo Bare Workflow ele cria as pastas ios e android, diferente do projeto criado com Expo Managed que a execução tem que ser pelo expo, com o Bare Workflow é possível executar o projeto tanto pelo expo como nativo pelo android, npm start e npx react-native run-android, no caso aqui seria yarn start para startar a aplicação e yarn android para compilar todos os pacotes, em um projeto novo aqui estou conseguindo rodar das duas formas, esse erro está nos links do projeto, como eu somente rodei pelo expo não sei qual biblioteca está o problema e ainda não descobri o problema.
+
+
+
+https://app.rocketseat.com.br/h/forum/react-native/d1cc6835-ad7e-4a1c-9ca0-c0372928f571
+
+
+
+
+
+
+refresh token
+Aula em: Contextos e Autenticação › Login Social › Finalizando a nossa Aplicação
+como seria para fazer login infinito com refresh token no react native uma vez que o storage é async ?
+
+COMENTAR
+RESPONDER
+Melhor Resposta
+
+Votos
+
+Data
+Vinícius Fraga Modesto
+
+Rocketseat
+Vinícius Fraga Modesto
+03/12/21 às 15:57
+Falaaa @Augusto Telles!
+
+Devido a inatividade estaremos fechando esse tópico, mas se por acaso sua dúvida ainda persistir sinta-se totalmente livre para reabrir esse tópico e nos atualizar sobre o seu caso 💜
+
+COMENTAR
+Todas as respostas
+Página 1 de página 1
+
+Vinícius Fraga Modesto
+
+Rocketseat
+Vinícius Fraga Modesto
+03/12/21 às 15:57
+Falaaa @Augusto Telles!
+
+Devido a inatividade estaremos fechando esse tópico, mas se por acaso sua dúvida ainda persistir sinta-se totalmente livre para reabrir esse tópico e nos atualizar sobre o seu caso 💜
+
+COMENTAR
+Augusto Telles
+Augusto Telles
+22/11/21 às 15:54
+@Danilo Vieira obrigado pela vointade em ajudar, mas não quero colocar o token, quero na verdade quando o token expira bater na api dorefresh token e pegar o novo token. E sim para isto preciso do interceptor...
+
+(3) COMENTAR
+Rocketseat
+Danilo Vieira
+22/11/21 às 17:08 | Editado em 22/11/2021
+RESPONDER
+
+Você pode nos dar um exemplo do seu problema?
+Porque se você precisa realmente pegar o refresh token no interceptor, é só usar .then ao recuperar os dados do AsyncStorage ou definir a função do interceptor como async:
+Exemplo usando o .then
+
+api.interceptors.request.use(async () => {
+  const refreshToken = await AsyncStorage.getItem('@refresh-token');
+  
+  // resto do código...
+});
+Exemplo usando o async
+
+api.interceptors.request.use(() => {
+  const refreshToken = AsyncStorage.getItem('@refresh-token').then(token => {
+    // faça algo com o token ou retorne ele
+  });
+  
+  // resto do código...
+});
+Augusto Telles
+22/11/21 às 19:53 | Editado em 23/11/2021
+RESPONDER
+
+@Danilo Vieira
+
+
+function setupAPIClient(): AxiosInstance {
+  const api = axios.create({
+    baseURL: "https://bemviverdev.togu.dev",
+  });
+
+  api.interceptors.response.use(
+    (response) => {
+      return response;
+    },
+    async (error: AxiosError) => {
+      if (error.response?.status === 401) {
+        if (error.response.data.message === "Token expirou, refaça o login.") {
+          const refreshToken = await AsyncStorage.getItem(
+            "@authapp:refreshToken"
+          );
+
+          const originalConfig = error.config;
+
+          if (!isRefreshing) {
+            isRefreshing = true;
+
+            api
+              .post("/sessions/refresh-token", {
+                current_refresh_token: refreshToken,
+              })
+              .then(async (response) => {
+                const { token, refresh_token } = response.data;
+
+                await AsyncStorage.multiSet([
+                  ["@authapp:token", token],
+                  ["@authapp:refreshToken", refreshToken],
+                ]);
+
+                api.defaults.headers.authorization = `Bearer ${token}`;
+
+                failedRequestQueue.forEach((request) =>
+                  request.onSuccess(token)
+                );
+                failedRequestQueue = [];
+              })
+              .catch((err) => {
+                failedRequestQueue.forEach((request) =>
+                  request?.onFailure(err)
+                );
+                failedRequestQueue = [];
+
+                signOut();
+              })
+              .finally(() => {
+                isRefreshing = false;
+              });
+          }
+
+          return new Promise((resolve, reject) => {
+            failedRequestQueue.push({
+              onSuccess: (token: string) => {
+                originalConfig.headers.authorization = `Bearer ${token}`;
+
+                resolve(api(originalConfig));
+              },
+              onFailure: (err: AxiosError) => {
+                reject(err);
+              },
+            });
+          });
+        }
+
+        signOut();
+      }
+
+      return Promise.reject(error);
+    }
+  );
+
+  return api;
+}
+CARREGAR MAIS COMENTÁRIOS
+Danilo Vieira
+
+Rocketseat
+Danilo Vieira
+12/11/21 às 16:25
+Faaala @Augusto Telles tudo bem? 🚀
+Essa parte de refresh token é mais responsabilidade do backend que do frontend em si.
+Considerando que o seu servidor está retornando os dados suficientes para fazer o refresh token de um token expirado, tudo que você precisa fazer é chamar a rota de refresh token quando a aplicação iniciar e o token não for mais válido.
+Se você tiver acesso à trilha de Node.js no Ignite, pode assistir essas aulas onde a Dani explica e constrói essa feature mas caso não tenha acesso, temos também essa aula no nosso canal no YouTube onde a Dani também é quem constrói a mesma funcionalidade. 💜
+
+(4) COMENTAR
+Augusto Telles
+14/11/21 às 23:21
+RESPONDER
+
+eu tenho, inclusive meu back ta preparado, e meu front web tb, porem meu app para fazer o interceptor nao aceita ser async e o storage precisa ser...
+
+Rocketseat
+Danilo Vieira
+18/11/21 às 15:13
+RESPONDER
+
+
+@Augusto Telles você pode usar outra estratégia para pegar o token do storage (armazenar em um estado no contexto talvez?) antes do interceptor pegar essa informação para quando for usar, ela já está disponível.
+
+https://app.rocketseat.com.br/h/forum/react-native/37317c5e-21c3-4d04-87e0-d1c3217aef31
+
+
+
+
+
+
+
+
+
+
+
+
+
+App funcionando 100% porém faltou um detalhe (Logout Apple)
+Aula em: Contextos e Autenticação › Login Social › Finalizando a nossa Aplicação
+Quando eu faço o Login pela primeira vez com a Apple, os dados são carregados corretamente.
+Quando faço o Logout e tento fazer Login novamente, os dados do usuário vem como Null.
+
+O Rodrigo explicou que isso acontece ao fazer o login pela segunda vez mas creio que exista algo a se fazer durante o login (para carregar os dados novamente) ou durante logout (para apagar as autorizações de login do aparelho) e contornar isso pois seria muito incômodo para os usuários da Apple ter que ficar apagando os dados manualmente toda vez que for fazer o login no app.
+
+COMENTAR
+RESPONDER
+Melhor Resposta
+
+Votos
+
+Data
+Vinícius Fraga Modesto
+
+Rocketseat
+Vinícius Fraga Modesto
+17/01/22 às 09:45 | Editado em 11/02/2022
+Bom dia @Fábio Aragão Dias, tudo certo?
+
+Concordo contigo, essa não é uma experiência legal para o usuário e nem para o desenvolvedor. Mas até onde eu saiba, esse é o fluxo da Apple mesmo (pelo menos com essa lib), veja aqui:
+https://docs.expo.dev/versions/latest/sdk/apple-authentication/#appleauthenticationsigninasyncoptions
+
+Dessa forma, você pode tentar uma das duas opções que a doc sugeriu ali. Como nós não temos servidor próprio, você pode trabalhar com o SecureStore do Expo, que basicamente é um AsyncStorage mais seguro.
+
+Espero ter ajudado 
+COMENTAR
+Todas as respostas
+Página 1 de página 1
+
+Vinícius Fraga Modesto
+
+Rocketseat
+Vinícius Fraga Modesto
+17/01/22 às 09:45 | Editado em 11/02/2022
+Bom dia @Fábio Aragão Dias, tudo certo?
+
+Concordo contigo, essa não é uma experiência legal para o usuário e nem para o desenvolvedor. Mas até onde eu saiba, esse é o fluxo da Apple mesmo (pelo menos com essa lib), veja aqui:
+https://docs.expo.dev/versions/latest/sdk/apple-authentication/#appleauthenticationsigninasyncoptions
+
+Dessa forma, você pode tentar uma das duas opções que a doc sugeriu ali. Como nós não temos servidor próprio, você pode trabalhar com o SecureStore do Expo, que basicamente é um AsyncStorage mais seguro.
+
+Espero ter ajudado 
+COMENTAR
+Vinícius Fraga Modesto
+
+Rocketseat
+Vinícius Fraga Modesto
+24/01/22 às 15:24
+Falaaa @Fábio Aragão Dias!
+
+Devido a inatividade estaremos fechando esse tópico, mas se por acaso sua dúvida ainda persistir sinta-se totalmente livre para reabrir esse tópico e nos atualizar sobre o seu caso
+
+https://app.rocketseat.com.br/h/forum/react-native/e09499f2-41f9-4d15-8734-71957f2e0088 
+
+https://docs.expo.dev/versions/latest/sdk/apple-authentication/#appleauthenticationsigninasyncoptions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+desafio Rocketseat
+https://efficient-sloth-d85.notion.site/Desafio-01-SavePass-d0b8fee06c7f41e0a9c644a540c2049b
